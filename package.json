@@ -1,0 +1,13 @@
+{
+  "name": "nova-assistant",
+  "version": "1.0.0",
+  "description": "Nova - Hinglish AI assistant with voice",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "@google/generative-ai": "^0.13.0"
+  }
+}
